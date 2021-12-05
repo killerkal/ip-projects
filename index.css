@@ -1,0 +1,14 @@
+section{
+  height: 500px;
+  background-color: yellow;
+  border: solid black 1px;
+} 
+
+.villain{
+  background-color: rgb(13, 13, 56);
+  height: 100vh;
+}
+footer{
+  height: 450px;
+  background-color: black;
+}
