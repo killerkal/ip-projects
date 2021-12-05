@@ -32,7 +32,12 @@ li{
 }
 h1{
   font-size: 92px;
+  margin: 0;
 
+}
+p{
+  margin: 0px;
+  font-size: 35px;
 }
 .kuku{
   margin-left: 80px;
