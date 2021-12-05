@@ -7,8 +7,26 @@ section{
 .villain{
   background-color: rgb(13, 13, 56);
   height: 100vh;
+  color: aliceblue;
+  font-size: 41px;
 }
 footer{
   height: 450px;
   background-color: black;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 500px;
+  font-size: 32px;
+
+}
+li{
+  width: 230px;
+  text-decoration: none;
 }
