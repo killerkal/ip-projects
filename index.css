@@ -1,7 +1,6 @@
 section {
     height: 500px;
     background-color: white;
-    border: solid black 1px;
 }
 
 .villain {
@@ -12,7 +11,7 @@ section {
 }
 
 footer {
-    height: 450px;
+    height: 50px;
     background-color: rgb(36, 4, 4);
 }
 
@@ -39,9 +38,19 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 45px;
+}
+
 p {
     margin: 0px;
     font-size: 35px;
+}
+
+.p2 {
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
 }
 
 .hero-area {
@@ -85,4 +94,46 @@ button:active {
     text-align: left;
     height: 80px;
     padding: 15p;
+}
+
+.sub-section {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.headshot {
+    border-radius: 30%;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#hobbies {
+    text-align: left;
+    float: left;
+}
+
+ol {
+    text-align: left;
+    float: left;
+}
+
+.project-card {
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px;
+    margin: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
