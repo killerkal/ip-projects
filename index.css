@@ -11,8 +11,10 @@ section {
 }
 
 footer {
-    height: 50px;
     background-color: rgb(36, 4, 4);
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
 
 nav {
@@ -45,6 +47,11 @@ h2 {
 p {
     margin: 0px;
     font-size: 35px;
+}
+
+.subtext {
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .p2 {
@@ -125,6 +132,7 @@ ol {
     height: 400px;
     box-shadow: 5px 5px 20px;
     margin: 20px;
+    background-color: coral;
 }
 
 .project-container {
@@ -132,8 +140,26 @@ ol {
     justify-content: space-between;
 }
 
+@media only screen and (max-width:1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .pro {
     display: flex;
     text-align: center;
     flex-direction: column;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
 }
